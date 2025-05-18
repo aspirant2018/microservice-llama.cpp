@@ -2,6 +2,15 @@
 
 This project demonstrates a simple LangGraph workflow integrated with a local LLM API to simulate a multi-step conversational flow.
 
+## Pre-requies
+
+Make sure to run the LLaMA server before starting the FastAPI app:
+
+```bash
+llama-server -hf ggml-org/SmolVLM-500M-Instruct-GGUF -c 8080 -np 2
+```
+-np 2 → Number of Processing Threads
+
 ## 📦 Requirements
 
 - Python 3.8+
